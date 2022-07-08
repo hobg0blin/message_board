@@ -14,33 +14,33 @@ html, body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   align-content: center;
   height:100vh;
 }
 .messages {
   display: flex;
-  width: 80%;
-  margin: 10px auto;
+  width: 90%;
+  margin: 0 5px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
-  height: 60%;
   max-height: 60%;
   overflow: scroll;
-
+  padding: 5px 0;
+  border: 1px solid #221f20;
 }
 .message-container {
   margin: 5px;
-background: #dedcd5;
-color: #221f20;
+  background: #dedcd5;
+  color: #221f20;
   border: 1px solid #221f20;
   border-radius: 0px;
   padding: 5px; 
-  max-width: 40%;
   max-height: 60%;
+  max-width: 40%;
   overflow: scroll;
 
 }

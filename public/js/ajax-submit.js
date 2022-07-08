@@ -11,7 +11,7 @@
                     data: $(this).serialize(),
                     success: function(data){
                         if(data.success){
-                          //$container.html('<h3>Thanks!</h3>');
+                          $("#fieldMessage").val('');
                           getMessages()
                         } else {
                             $container.html('There was a problem. Try reloading the page');
