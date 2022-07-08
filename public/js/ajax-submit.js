@@ -11,10 +11,10 @@
                     data: $(this).serialize(),
                     success: function(data){
                         if(data.success){
+                          //$container.html('<h3>Thanks!</h3>');
                           getMessages()
-                          $container.html('<h3>Thanks!</h3>');
                         } else {
-                            $container.html('There was a problem.');
+                            $container.html('There was a problem. Try reloading the page');
                         }
                     },
                     error: function(){

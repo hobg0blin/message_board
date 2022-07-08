@@ -23,11 +23,10 @@
   width: 80%;
   margin: auto;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
   height: 50%;
-  padding: 0px;
   overflow: scroll;
 
 }
