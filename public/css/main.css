@@ -6,7 +6,7 @@
 html, body {
   background: #dedcd5;
   font-family: Literata, serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
@@ -33,14 +33,15 @@ html, body {
 }
 .message-container {
   margin: 5px;
-  background: #f5f4ee;
-  color: #221f20;
+background: #dedcd5;
+color: #221f20;
   border: 1px solid #221f20;
   border-radius: 0px;
+  padding: 5px; 
 
 }
 .message-content {
-  padding: 5px
+  padding: 0px;
 }
 .formContainer {
   width: 80%;
@@ -53,7 +54,7 @@ html, body {
 
 }
 .form-control {
-  background: #f5f4ee;
+background: #dedcd5;
   color: #221f20;
   border: 1px solid #221f20;
   border-radius: 0px;
