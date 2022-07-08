@@ -3,15 +3,20 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html, body {
+  background: #dedcd5;
+  font-family: Literata, serif;
+  font-size: 14px;
+}
 
 
 .container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-content: flex-start;
-  height: 100vh;
+  align-items: flex-start;
+  align-content: center;
+  max-height: 100vh;
 }
 .messages {
   padding: 5%;
@@ -28,6 +33,8 @@
 }
 .message-container {
   margin: 5px;
+  background: #f5f4ee;
+  color: #221f20;
 }
 .formContainer {
   width: 80%;
@@ -37,6 +44,19 @@
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
+
+}
+.fieldMessage {
+  background: #f5f4ee;
+  color: #221f20;
+  border: 1px solid #221f20;
+  border-radius: 0px;
+}
+.btn {
+background: #f5f4ee;
+  color: #221f20;
+  border: 1px solid #221f20;
+  border-radius: 0px;
 
 }
 .control-label {

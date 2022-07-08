@@ -5,7 +5,7 @@
 \{{#each this.messages}}
 <div class="panel panel-default message-container">
 <div class="panel-body message-content">
-<div>\{{message.text}} - \{{message.name}}.</div> 
+<div>\{{message.text}}</div> 
 </div>
 </div>
 \{{/each}}
@@ -16,12 +16,6 @@
     <form autocomplete="off" class="form-horizontal messageContainer" role="form" 
             action="/message" method="POST">
         <div class="form-group">
-            <label for="fieldName" class="control-label">Name</label>
-                <input type="text" class="form-control" required
-                id="fieldName" name="name">
-        </div>
-        <div class="form-group">
-            <label for="fieldMessage" class="control-label">Message</label>
                 <input type="text" class="form-control" required 
                     id="fieldMessage" name="text">
         </div>
