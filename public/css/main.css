@@ -12,22 +12,23 @@ html, body {
 
 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
   align-content: center;
-  max-height: 100vh;
+  height:100vh;
+  padding: 5%;
 }
 .messages {
-  padding: 5%;
   display: flex;
   width: 80%;
-  margin: auto;
+  margin: 10px auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
   height: 50%;
+  max-height: 50%;
   overflow: scroll;
 
 }
@@ -38,6 +39,7 @@ color: #221f20;
   border: 1px solid #221f20;
   border-radius: 0px;
   padding: 5px; 
+  max-width: 50%;
 
 }
 .message-content {
